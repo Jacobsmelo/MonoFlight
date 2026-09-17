@@ -1,0 +1,1 @@
+"""Monoflight backend application package."""
