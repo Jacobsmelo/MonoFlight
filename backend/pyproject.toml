@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "API development for Flight Planning services"
 readme = "README.md"
 requires-python = ">=3.14"
+
 dependencies = [
    "fastapi[standard]>=0.139.2",
    "aiosqlite>=0.22.1",
@@ -40,3 +41,6 @@ dependencies = [
    "pypdf2>=3.0.1",
    "xlwings>=0.36.13",
    "pyyaml>=6.0.3"]
+
+[tool.fastapi]
+entrypoint = "app.main:app"
